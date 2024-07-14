@@ -30,9 +30,16 @@
     - On the second terminal - run the command: ```npm run dev``` and verify the frontend is running as expected
     - Press ctrl + click on the URL: ```http://localhost:3000```
 
-7. **XSS stored attack demonstartion**:
-    - Navigate to .env and verify **NEXT_PUBLIC_SAFE_MODE=false**
-    - Log in to an existing user
-    - Navigate to add new customer page
-    - Insert as a new customer name: ```<img src=x onerror='alert("HACKED!")'>```
-    - Insert other needed inputs and click submit
+7. **Screen Shots**:
+![image](https://github.com/user-attachments/assets/44852f18-7457-468d-97be-1a1aedf0a327)
+
+![image](https://github.com/user-attachments/assets/c536e8e9-c330-426a-a2a1-7e14618b8675)
+
+![image](https://github.com/user-attachments/assets/df88bbff-5c34-43cf-9f1a-52210350da11)
+
+![image](https://github.com/user-attachments/assets/874a4e56-6870-4339-9755-9dcc2da0a526)
+
+![image](https://github.com/user-attachments/assets/bd92efb4-1f3c-49e4-8ea8-79f326720b82)
+
+![image](https://github.com/user-attachments/assets/20e82d80-ba5a-4636-9256-c0a3b81fe085)
+
